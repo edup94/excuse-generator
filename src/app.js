@@ -7,7 +7,6 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   document.querySelector("#excuse").innerHTML = generateExcuse();
-  console.log("Hello");
 };
 
 let generateExcuse = () => {
